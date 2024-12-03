@@ -127,7 +127,7 @@ void loop() {
     }
 
     // Open a file on the SD card
-    File audioFile = SD_MMC.open("/audio3.raw", FILE_APPEND);
+    File audioFile = SD_MMC.open("/audio6.raw", FILE_APPEND);
     if (!audioFile) {
         Serial.println("Failed to open file on SD card!");
         return;
